@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 16</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="Navegacion">
+        <ul class="NavUl">
+          <li><a href="">Incio</a></li>
+          <li><a href="">Sobre Nosotros</a></li>
+          <li><a href="">Contactanos </a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form method="post" onsubmit="return validarFormulario()">
+        <label for="nombre">Nombre</label><br />
+        <input type="text" name="nombre" id="nombre" /><br />
+        <label for="correoElectronico">Correo Electronico</label><br />
+        <input
+          type="email"
+          name="correoElectronico"
+          id="correoElectronico"
+        /><br />
+        <label for="password">Contraseña</label><br />
+        <input
+          type="password"
+          name="password"
+          id="correoElectronicocorreoElectronicocorreoElectronico"
+        /><br />
+        <label for="file">Subir Imagen de Perfil</label>
+        <input
+          onchange="mostrarImagen(event)"
+          type="file"
+          name="file"
+          id="file"
+          accept="file"
+        />
+        <br />
+        <img id="ver-img" class="ver-img" />
+        <button type="submit">Subir</button>
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
