@@ -1,0 +1,217 @@
+body {
+  margin: 0;
+}
+
+#formulario-inicio {
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
+  /* Máximo ancho del formulario */
+}
+
+h2 {
+  text-align: center;
+  box-shadow: #0c52a3;
+}
+
+#buscador {
+  padding: 5px;
+  background-color: rgb(1, 41, 110);
+  border-radius: 10px;
+  color: white;
+}
+
+header {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+#header_img {
+  padding-right: 15px;
+}
+
+.img-fluid {
+  max-width: 70%;
+  /* Ajuste de la imagen */
+  height: auto;
+}
+.custom-opacity {
+  background-color: rgba(123, 123, 123, 0.1);
+}
+
+#container_img_header {
+  display: flex;
+  justify-content: start;
+}
+
+#containerimg {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 70px;
+}
+
+#header_registro {
+  background: white;
+}
+#paciente_atendido2:hover {
+  width: 500px;
+}
+#paciente_atendido:hover {
+  width: 850px;
+}
+
+#segundo_header {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+header {
+  background: linear-gradient(to right, #0f3b6f, #1d72d4);
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+#header_a {
+  color: white;
+  text-decoration: none;
+}
+#section_header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul {
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer {
+  background: linear-gradient(to right, #051f3d, #0c52a3);
+  color: white;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
+#servicios {
+  background-color: #e5e8e8;
+  margin-left: 200px;
+  margin-right: 200px;
+  flex-basis: 50%;
+  border-radius: 20px;
+  display: -webkit-flex;
+  flex-flow: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#container_servicios {
+  max-width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#navegacion_footer {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+}
+#segundo_header_container {
+  padding-top: 60px;
+}
+
+#navegacion_footer_a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+.titulo_section {
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+#container_bienvenidos {
+  text-align: center;
+}
+.desplegable {
+  position: relative;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #1d72d4;
+  list-style-type: none;
+  padding: 0;
+  min-width: 120px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-menu li {
+  width: 100%;
+}
+
+.sub-menu li a {
+  display: block;
+  padding: 8px 16px;
+  color: white;
+}
+
+.sub-menu li a:hover {
+  background-color: #051f3d;
+}
+
+.desplegable:hover .sub-menu {
+  display: block;
+}
+
+#a_nav {
+  color: black;
+  text-decoration: none;
+  margin-left: px;
+}
+#titulo {
+  text-align: center;
+}
+#container_informacion {
+  background: linear-gradient(to right, #1d72d4, #0f3b6f);
+  max-width: 1000px;
+  margin-left: 500px;
+  border-radius: 20px;
+  padding-top: 30px;
+}
+
+.titulo_section {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: white;
+}
+.img_IA {
+  margin-left: 20px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.img_IA:hover {
+  width: 520px;
+  height: 420px;
+}
