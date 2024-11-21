@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laboratorio 17</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Deivis Alfonso Yance Rosado</h1>
+    </header>
+    <main>
+      <section class="section">
+        <button type="button" onclick="Bienvenido()">Bienvenido</button>
+        <h2>Biografia</h2>
+        <p>
+          Soy estudiante del SENA (Servicio Nacional de Aprendizaje) en el
+          programa de Tecnología en Análisis y Desarrollo de Software, el cual
+          finalizaré el 25 de diciembre de 2025. A mis 18 años, me apasiona
+          aprender y enfrentar nuevos retos que pongan a prueba mis habilidades
+          y conocimientos. A lo largo de mi formación, he descubierto mi interés
+          por la programación y el desarrollo de soluciones tecnológicas que
+          puedan tener un impacto positivo en la sociedad. Siempre busco nuevas
+          oportunidades para expandir mis horizontes y aplicar lo aprendido de
+          manera práctica, con el objetivo de seguir creciendo profesionalmente
+          en el campo de la tecnología. Soy una persona perseverante, dedicada y
+          con una gran motivación por alcanzar mis metas. En el futuro, me
+          gustaría seguir desarrollando mis competencias en áreas como la
+          inteligencia artificial, el desarrollo de aplicaciones móviles y la
+          creación de software innovador.
+        </p>
+      </section>
+      <section class="section">
+        <h4>Habilidades Tecnicas</h4>
+        <ul class="Habilidades">
+          <li>Desarrollo Web: HTML, CSS</li>
+          <li>Lenguajes de Programación:Python, JavaScript</li>
+          <li>Framework:Bootstrap</li>
+          <li>Herramientas: Git, Git-Hud, Figma</li>
+        </ul>
+      </section>
+      <section class="section">
+        <form action="" method="post" id="contactform">
+          <label for="nombre">Nombre</label><br />
+          <input type="text" id="nombre" for="nombre" /><br />
+          <label for="correo">Correo Electronico</label><br />
+          <input type="email" name="correo" id="correo" /><br />
+          <label for="text">Comentario</label><br />
+          <textarea name="text" id="text" rows="2"></textarea><br />
+          <button type="submit" onclick="ValidarFormulario()">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p class="parrafooter">&copy;Deivis Alfonso Yance Rosado</p>
+      <p class="p_footer">
+        <a href="mailto:deivisyance@gmail.com">Correo Electronico</a>
+      </p>
+      <p class="p_footer">
+        <a href="https://wa.me/3175609991">Telefono</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
